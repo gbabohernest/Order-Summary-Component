@@ -96,6 +96,12 @@ p.sub-title {
   font-size: 0.8rem;
   font-weight: 700;
 }
+
+.annual-plan-box a:hover {
+  text-decoration: none;
+  color: var(--bright-blue);
+  opacity: 0.7;
+}
 .annual-plan-music-icon-box {
   display: flex;
   align-items: center;
@@ -118,11 +124,22 @@ a.proceed-payment-btn {
   background-color: var(--bright-blue);
   border-radius: 0.5rem;
   color: var(--bg-white);
+  box-shadow: 0 10px 7px lightgray;
   padding: 0.5rem;
+}
+
+a.proceed-payment-btn:hover {
+  /* background-color: blueviolet; */
+  opacity: 0.7;
 }
 
 a.cancel-order-btn {
   margin-bottom: 0;
+}
+
+a.cancel-order-btn:hover {
+  color: var(--dark-blue);
+  font-weight: 700;
 }
 @media only screen and (min-width: 37.5rem) {
   body {
